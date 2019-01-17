@@ -1,0 +1,91 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+}
+
+ol, ul {
+    padding-left: 30px;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.status {
+    margin-bottom: 10px;
+}
+
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+    cursor: pointer;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+}
+
+.game-info {
+    margin-left: 20px;
+}
+
+.buttonStyle {
+    position: relative;
+    top: 10%;
+    background-color: orangered;
+    width: 100%;
+    height: 60px;
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid #764abc;
+    border-radius: 3px;
+}
+
+.buttonStyle:hover {
+    background-color: #999999;
+    text-decoration-color: #61dafb;
+}
+
+.buttonToHome {
+    position: relative;
+    top: 20px;
+    background-color: orangered;
+    width: 100%;
+    height: 60px;
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid #764abc;
+    border-radius: 3px;
+}
+
+.buttonToHome:hover {
+    background-color: #999999;
+    text-decoration-color: #61dafb;
+}
+
+.listStyle {
+    list-style: none;
+}
